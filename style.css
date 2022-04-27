@@ -1,0 +1,65 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Roboto", sans-serif;
+}
+
+.container {
+	margin: 0.6rem 4rem 0 4rem;
+}
+
+.header {
+	text-align: center;
+	font-size: 50px;
+}
+
+span,
+i {
+	color: slateblue;
+}
+
+label {
+	font-size: 18px;
+}
+
+input {
+	outline: none;
+	border: none;
+	border: 1px solid silver;
+	padding: 0.3rem;
+	font-size: 17px;
+	width: 100%;
+	margin: 5px 0;
+	border-radius: 3px;
+}
+
+button {
+	width: 100%;
+	padding: 7px;
+	font-size: 18px;
+	cursor: pointer;
+	color: white;
+	background: teal;
+	border: none;
+	border-radius: 3px;
+	margin-top: 1.5rem;
+}
+table {
+	margin-top: 2rem;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+tr {
+	border-top: 1px solid silver;
+	font-size: 18px;
+}
+td {
+	width: 33%;
+	text-align: center;
+	padding: 10px 0px;
+}
+thead {
+	background: rgb(247, 247, 247);
+}
